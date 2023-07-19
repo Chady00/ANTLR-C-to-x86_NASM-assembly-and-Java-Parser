@@ -1,0 +1,26 @@
+int a;
+int e;
+int b;
+a = 0;
+e = 0;
+b = 0;
+
+if (e == 1)
+    a = 3;
+else
+    a = 4;
+endif
+
+a = a + 1;
+
+if (a == 5)
+   b = 12;
+   if (e == 1)
+     b = b + 1;
+   endif
+else
+   b = 28;
+endif
+
+print a;
+print b;
