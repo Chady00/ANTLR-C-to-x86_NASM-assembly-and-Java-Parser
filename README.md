@@ -11,3 +11,15 @@
 ---
 
 ## Output Samples:
+
+*   `Generated NASM x86 assembly code from Classical C input:`
+   ![image](https://github.com/Chady00/ANTLR-C-to-x86_NASM-assembly-and-Java-Parser/assets/84717550/6b09fe40-582c-4d4d-b650-4db7889fa476)
+
+*   `Parse Tree Tool - Each statement generated on the left - Ability to export as PNG or SVG:`
+    ![image](https://github.com/Chady00/ANTLR-C-to-x86_NASM-assembly-and-Java-Parser/assets/84717550/37047fa5-6c3d-4caf-8157-842adc57efe9)
+
+*   `Output Tree:`
+  ![image](https://github.com/Chady00/ANTLR-C-to-x86_NASM-assembly-and-Java-Parser/assets/84717550/52773db8-6bd7-484b-a0a8-12ea34b6e147)
+
+
+
