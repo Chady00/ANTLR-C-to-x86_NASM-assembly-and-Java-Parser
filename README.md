@@ -1,6 +1,6 @@
 ## **Instructions:**
 
-*   Head to the example directory, paste the following commands in your CML in order:
+*   Head to the example directory, paste the following commands in your CLI in order:
 
 <table><tbody><tr><td>&nbsp; &nbsp;1. REM Set the CLASSPATH variable<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>SET CLASSPATH=.;C:\Java Lib\antlr-4.12.0-complete.jar</strong></td></tr><tr><td>&nbsp; &nbsp;2. REM Generate the ANTLR lexer and parser for MyLanguageV1Code.g4<br>&nbsp; &nbsp; &nbsp; &nbsp;<strong> &nbsp;antlr MyLanguageV1Code.g4</strong></td></tr><tr><td>&nbsp; &nbsp;3. REM Run the ANTLR tool to generate the parser classes<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong> java org.antlr.v4.Tool MyLanguageV1Code.g4</strong></td></tr><tr><td>&nbsp; &nbsp;4. REM Compile the generated Java files<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>javac MyLanguageV1Code*.java</strong></td></tr><tr><td>&nbsp; &nbsp;5.1. REM Run the "grun" utility to execute the parser on the input file "example.txt"<br>&nbsp; &nbsp; &nbsp;<strong> &nbsp;grun MyLanguageV1Code program example.txt</strong></td></tr><tr><td>&nbsp; &nbsp;5.2. REM Or Display the “GUI” of the parsed tree<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; grun MyLanguageV1Code program example.txt <strong>-gui</strong></td></tr></tbody></table>
 
